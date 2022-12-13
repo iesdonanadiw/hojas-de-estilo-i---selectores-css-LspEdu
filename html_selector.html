@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        .primero {}
+
+        p.primero {}
+
+        section.primero {}
+
+        #paco {}
+
+        p#segundo {}
+
+        .primero span {}
+
+        .primero>span {}
+
+        span .primero {}
+
+        .primero.parte {}
+    </style>
+</head>
+<body>
+    <p class="primero"> JUAN<span>PANpan</span></p>
+    <section class="primero">
+        <p id="paco">PACO <span>PAN</span></p>
+    </section>
+    <p class="segundo"></p>
+    <span>POLOLO<p class="primero">Primero dentro de span <span class="parte"> Parte dentro de primero</span></p></span>
+
+</body>
+
+</html>
